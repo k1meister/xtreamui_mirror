@@ -17,6 +17,6 @@ sudo echo "@reboot root /home/xtreamcodes/iptv_xtream_codes/start_services.sh" >
 
 # permission fix for nginx_rtmp and nginx
 
-chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp
-chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx
+chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp <br>
+chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx <br>
 sudo /home/xtreamcodes/iptv_xtream_codes/start_services.sh
