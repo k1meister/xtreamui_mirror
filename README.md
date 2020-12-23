@@ -4,7 +4,9 @@ This is an installation mirror for xtream ui software.
 # install main
 
 apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y
+
 wget https://github.com/k1meister/xtreamui_mirror/blob/main/install.py 
+
 sudo python install.py
 
 # update the system to xtreamui v22f (it does includes the admin part, so it doesn’t required to install it separately)
